@@ -1,0 +1,42 @@
+.appBar {
+    background-color: #2B3C73 !important;
+    box-shadow: none;
+    height: 64px;
+    border-bottom: 1px solid #ddd;
+    position: 'fixed';
+    top: 0;
+    left: 0;
+    right: 0; 
+    z-index:  1000;
+    overflow: hidden;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 16px; 
+  }
+  
+  .companyName {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .iconButton {
+    margin-left: 16px; 
+  }
+  
+  .image {
+    width: 24px;
+    height: 24px;
+  }
+  

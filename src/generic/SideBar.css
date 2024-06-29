@@ -1,0 +1,47 @@
+.sidebarContainer {
+    width: 240px;
+    height: 100%;
+    background-color: #f4f4f4;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    top: 64px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+  
+  .listItem:hover {
+    background-color: #ddd;
+  }
+  .listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    background-color: #2B3C73;
+    color: white;
+    padding: 0.5em;
+  }
+  
+ 
+  .listItemIcon {
+    margin-right: 16px;
+  }
+  
+  .listItemText {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .image {
+    width: 24px;
+    height: 24px;
+  }
+  

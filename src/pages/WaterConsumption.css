@@ -1,0 +1,76 @@
+.cardContainer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }  
+  .cardContent {
+    margin-bottom: 20px; 
+  } 
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .cardContent h6 {
+    font-weight: bold;
+  }
+  
+  .cardContent hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+  }
+  .successLabel {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .infoIcon {
+    margin-left: 8px;
+    width: 10px; 
+    height: 10px; 
+  }
+  .date-time{
+      font-size: 0.7rem !important;
+  }
+  .successLabelContainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+  }
+  
+  .successLabel {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  .report-title{
+    display: flex;
+    align-items: center;
+}
+.UpWard{
+border: 1px solid red;
+border-radius: 5px;
+display: inline-flex !important;
+padding: 0em 0.5em;
+}
+.DownWard{
+    border: 1px solid #4caf50;
+border-radius: 5px;
+display: inline-flex !important;
+padding: 0em 0.5em;
+}

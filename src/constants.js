@@ -1,0 +1,1 @@
+export const userManual = require('./assets/images/UserManual.svg')
